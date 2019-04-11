@@ -3,6 +3,9 @@
   "bugs": {
     "url": "https://github.com/m14t/zero-to-server-with-graphql/issues"
   },
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
   "description": "",
   "devDependencies": {
     "eslint": "^5.16.0",
