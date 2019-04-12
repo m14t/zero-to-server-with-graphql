@@ -17,3 +17,7 @@ I first learned about [Richardson Maturity Model
 
 - [How To GraphQL](https://www.howtographql.com/)
 - Shopify's [GraphQL Design Tutorial](https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md) is a great read on how to make a good GraphQL Schema
+- Authorization resources:
+  - [GraphQL.org's Authorization](https://graphql.org/learn/authorization/) docs
+  - [Apollo's Authorization][https://blog.apollographql.com/authorization-in-graphql-452b1c402a9] post
+  - [`graphql-shield`](https://github.com/maticzav/graphql-shield)
