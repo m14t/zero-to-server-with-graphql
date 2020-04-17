@@ -85,7 +85,7 @@ const resolvers = {
   Query: {
     events: () => events,
     people: (parent, args, context) => {
-      console.log(context);
+      console.log(context); // eslint-disable-line no-console
 
       return Object.values(people).filter(
         (person) => !args.gender || person.gender === args.gender,
@@ -111,5 +111,5 @@ const server = new ApolloServer({
 });
 
 server.listen().then(({ url }) => {
-  console.log(`🚀  Server ready at ${url}`);
+  console.log(`🚀  Server ready at ${url}`); // eslint-disable-line no-console
 });
