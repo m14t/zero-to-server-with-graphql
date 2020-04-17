@@ -20,7 +20,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.1.4",
     "nodemon": "^2.0.3",
-    "prettier": "^1.16.4"
+    "prettier": "^2.0.4"
   },
   "engines": {
     "node": "10.14.1 - 11.x",
